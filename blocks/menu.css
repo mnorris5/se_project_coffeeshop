@@ -1,0 +1,66 @@
+.menu {
+  background-color: #0a2750;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  max-width: 780px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+.menu__subtitle {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  max-width: 780px;
+  text-align: center;
+  margin: auto;
+  padding-top: 24px;
+  padding-bottom: 100px;
+}
+.menu__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 100px;
+}
+
+.card {
+  max-width: 600px;
+}
+.card__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+.card__list-item {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  list-style-type: none;
+}
+.card__list-divider {
+  display: block;
+  min-width: 50px;
+  height: 1px;
+  background-color: white;
+}
