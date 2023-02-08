@@ -23,3 +23,22 @@
   line-height: 30px;
   margin: 0 0 80px 80px;
 }
+.recipes__videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+}
+.recipes__iframe {
+}
+.recipes__video-caption {
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 20px;
+
+  line-height: 30px;
+}
