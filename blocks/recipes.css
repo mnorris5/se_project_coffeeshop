@@ -31,8 +31,7 @@
   justify-content: center;
   column-gap: 40px;
 }
-/* .recipes__iframe {
-} */
+
 .recipes__video-caption {
   font-family: Inter;
   font-style: normal;
@@ -41,4 +40,6 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding-top: 24px;
 }
