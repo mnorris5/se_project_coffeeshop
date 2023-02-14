@@ -8,13 +8,13 @@
 }
 .footer__logo {
   color: #ffffff;
+  align-self: flex-start;
 }
 
 .footer__list {
   list-style: none;
   color: #ffffff;
   margin: 0;
-
   column-gap: 16px;
 }
 
