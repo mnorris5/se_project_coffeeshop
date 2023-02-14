@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .menu__title {
   font-family: Inter;
@@ -15,7 +17,6 @@
   max-width: 780px;
   text-align: center;
   margin: auto;
-  padding-top: 100px;
 }
 .menu__subtitle {
   font-family: Noto Serif;
@@ -36,10 +37,17 @@
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 100px;
+  row-gap: 100px;
 }
 
 .card {
   max-width: 600px;
+  flex-basis: 40%;
+}
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 .card__title {
   font-family: Inter;
@@ -57,10 +65,9 @@
   line-height: 20px;
   color: white;
   list-style-type: none;
+  display: flex;
 }
 .card__list-divider {
-  display: block;
-  min-width: 50px;
-  height: 1px;
-  background-color: white;
+  border-bottom: 1px solid white;
+  flex-grow: 1;
 }
