@@ -8,7 +8,7 @@
   padding-top: 100px;
 }
 .menu__title {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -19,7 +19,7 @@
   margin: auto;
 }
 .menu__subtitle {
-  font-family: Noto serif;
+  font-family: "Noto serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -38,42 +38,4 @@
   flex-wrap: wrap;
   column-gap: 100px;
   row-gap: 100px;
-}
-
-.card {
-  max-width: 600px;
-  flex-basis: 40%;
-}
-.card__list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.card__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  color: white;
-  margin: 0;
-  padding-bottom: 32px;
-}
-.card__list-item {
-  font-family: Noto serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
-  list-style-type: none;
-  display: flex;
-  padding-bottom: 16px;
-}
-.card__list-item:last-of-type {
-  padding-bottom: 0;
-}
-.card__list-divider {
-  border-bottom: 1px solid white;
-  flex-grow: 1;
 }
