@@ -10,14 +10,6 @@
   box-sizing: border-box;
   padding-top: 30px;
 }
-.header__logo {
-  position: absolute;
-  width: 125px;
-  height: 142px;
-  top: 30px;
-  left: 30px;
-}
-
 .header__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -28,7 +20,7 @@
   margin: 202px 0 0 80px;
 }
 .header__span-accent {
-  font-family: "Moto serif", Times New Roman, serif;
+  font-family: "Noto serif", Times New Roman, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
